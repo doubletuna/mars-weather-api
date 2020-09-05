@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_home_exercise",
+  "version": "1.0.0",
+  "description": "nodejs_home_exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-demon": "nodemon app.js"
+  },
+  "author": "Danny Leon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "node-fetch": "^2.6.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
