@@ -10,7 +10,7 @@ module.exports = (app) => {
   
   app.use((error, req, res, next) => {
     logger.error(`${error.message} ${error.status === 404 ? error.path : error.info} | ${new Date().toUTCString()}`);
-    console.error(error.stack);
+    // console.error(error.stack);
     res.status(error.status || 500).send({
       error: {
         status: error.status || 500,
